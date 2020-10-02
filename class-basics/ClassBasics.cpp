@@ -21,7 +21,7 @@ using namespace std;
 
 class Text {
 	string fileInput; // stores contents of file opened by constructor
-public:
+public:  // Access Specifier public
 	Text(); // default constructor
 	Text(string filename); // constructor that accepts file to be opened
 	string contents(); // member function which returns contents of file
