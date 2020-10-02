@@ -16,7 +16,7 @@ Copyright: 2015 Daniel R. Bonham
 #include <iostream> // Stream declarations
 using namespace std;
 
-class Hen {
+class Hen {  // Outer Class
 public:
 	void display(); // member function
 	Hen(); // constructor
